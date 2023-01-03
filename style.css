@@ -1,0 +1,78 @@
+body,html{
+    margin: 0;
+    background-color: transparent;
+}
+
+html{
+    background-color: #30343b;
+}
+
+
+#img-fond{
+    clip-path: polygon(0 0, 100% 0, 100% 28%, 0 17%);
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    z-index: -1;
+    height: 900px;
+}
+
+
+.row{
+    align-items: center;
+
+}
+
+footer{
+    position: relative;
+}
+
+.nav-bg-perso{
+    background-color: #30343b;
+    border-radius: 3rem;
+}
+
+.col-index>a>img{
+    visibility: visible;
+    filter: grayscale(100%);
+}
+
+
+.col-index:hover{
+    transform: scale(1.05);
+}
+
+.col-index:hover>a>img{
+    filter:grayscale(0%) ;
+}
+
+
+.carousel_index {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel_sell{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-bg-perso{
+    background-color: rgba(63, 63, 63, 0.548);
+    border-radius: 1rem;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+.comment-text{
+    font-size: 0.9rem;
+}
+
+textarea{
+    resize: none;
+}
